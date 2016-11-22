@@ -1,6 +1,16 @@
-<% provide(:title, "Home") %>
-<h1>Raiku</h1>
-<p>Raiku is a new app for people who love haikus and social media.</p>
 
-<p>Raiku aims to be an innovative social media platform where users communicate entirely through haikus.</p>
-	
+	<div class="center jumbotron">
+
+  <h2>Raiku is a new app for people who love haikus and social media.</h2>
+    <!--<a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.-->
+	<p>Raiku aims to be an innovative social media platform where users communicate entirely through haikus.
+	</p>
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
