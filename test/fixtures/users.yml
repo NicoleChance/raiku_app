@@ -14,6 +14,15 @@ tumri:
   activated: true
   activated_at: <%= Time.zone.now %>
 
+lenny:
+  name: Lenny Twopinkies
+  email: hands@example.gov
+  password_digest: <%= User.digest('password') %>
+
+mel:
+  name: Mel Ducson
+  email: ducson@org.gov
+
 
 <% 30.times do |n| %>
 user_<%= n %>:

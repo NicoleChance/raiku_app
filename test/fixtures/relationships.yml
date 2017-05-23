@@ -1,0 +1,15 @@
+one:
+  follower: nicole
+  followed: lenny
+
+two:
+  follower: nicole
+  followed: mel
+
+three:
+  follower: lenny
+  followed: nicole
+
+four:
+  follower: tumri
+  followed: nicole
